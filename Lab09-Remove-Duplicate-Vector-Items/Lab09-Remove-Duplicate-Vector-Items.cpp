@@ -48,7 +48,7 @@ void showVector(vector<int> v, string msg)
 // -----------------------------------------------------------------------------
 void removeDuplicatesVersion1(vector<int>& v)
 {
-    //Version1. Removing duplicates (new vector is created)
+    //Version1. Removing duplicates (temporary new vector is created, then destroyed)
     vector<int> vNew;
     for (int num : v)
     {
