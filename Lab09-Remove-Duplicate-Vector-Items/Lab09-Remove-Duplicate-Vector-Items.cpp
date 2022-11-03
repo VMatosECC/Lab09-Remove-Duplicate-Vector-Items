@@ -18,8 +18,8 @@ int main()
     vector<int> v{ 11, 33, 22, 11, 44, 77, 66, 33, 55 };
     showVector(v, "Main. Original Vector (including duplicates)");
 
-    //removeDuplicatesVersion1(v);
-    removeDuplicatesVersion2(v);
+    removeDuplicatesVersion1(v);
+    //removeDuplicatesVersion2(v);
 
     showVector(v, "Main. Modified vector (no duplicates)");
 
